@@ -1,8 +1,8 @@
-import React from "react";
+//import React from "react";
 import { Avatar, Box, Flex, Link, Text, VStack } from "@chakra-ui/react";
 import { Menu, MenuButton, MenuItem, MenuList } from "@chakra-ui/menu";
 import { BsInstagram } from "react-icons/bs";
-import { Button, useToast } from "@chakra-ui/react";
+import {  useToast } from "@chakra-ui/react";
 import { CgMoreO } from "react-icons/cg";
 import { Portal } from "@chakra-ui/portal";
 
@@ -42,7 +42,10 @@ const UserHeader = () => {
           </Flex>
         </Box>
         <Box>
-          <Avatar name="pb7 mark" src="./zuck-avatar.png" size={"xl"} />
+          <Avatar name="pb7 mark" src="./zuck-avatar.png" size={{
+								base: "md",
+								md: "xl",
+							}} />
         </Box>
       </Flex>
       <Text>Co-founder, executive chairman and CEO of Meta Platforms.</Text>
