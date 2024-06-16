@@ -6,6 +6,7 @@ import './index.css'
 import {ChakraProvider, extendTheme}  from '@chakra-ui/react'
 import { mode } from "@chakra-ui/theme-tools";
 import { color } from 'framer-motion'
+import {BrowserRouter} from "react-router-dom"
 
 const styles = {
   global:(props)=>({
@@ -34,7 +35,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
   <ChakraProvider theme={theme}>
   <ColorModeScript initialColorMode={theme.config.initialColorMode} />
+  <BrowserRouter>
     <App />
+    </BrowserRouter>
     </ChakraProvider>
   </React.StrictMode>,
 )
