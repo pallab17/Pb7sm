@@ -4,3 +4,4 @@ react-router dom addition
 user page post-page addition
 public folder e pic addition from github of as a programmer
 dark mode,light mode banalam
+![alt text](image.png) --> user pg r userheader section ta banalam
