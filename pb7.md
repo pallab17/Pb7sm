@@ -11,6 +11,10 @@ dark mode,light mode banalam
 same post e dynamic data i.e. different likes comments r data diye 4-5 ta post korlam
 
 ![alt text](image-3.png) --> single post pg banachi
+![alt text](image-4.png) ==> comment section banalam
+
+frontend r kaj sesh!
+
 
 
 */
