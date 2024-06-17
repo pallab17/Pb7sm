@@ -30,6 +30,14 @@ connectDB.js file likhe db r sathe connection r code likhlam
 
 tarpor db connected msg elo
 
+tarpor usermodel.js aar postmodel.js schema file banalam
+
+tarpor middleware guno likhlam
+
+tarpor route guno
+
+route guno lekhar jonno we need controller to make it look clean
+
 
 
 
