@@ -16,5 +16,22 @@ same post e dynamic data i.e. different likes comments r data diye 4-5 ta post k
 frontend r kaj sesh!
 
 
+backend suru-
+![alt text](image-5.png) eiguno install korlam
+
+tarpor server start korlam
+env file banalam port no dhokalam
+
+database r jonno mongod atlas website e giye notun ekta new database create korlam
+tarpor mongo_uri tune anlam ene env te tule rakhlam
+
+tarpor
+connectDB.js file likhe db r sathe connection r code likhlam
+
+tarpor db connected msg elo
+
+
+
+
 
 */
