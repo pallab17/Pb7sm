@@ -1,6 +1,6 @@
 //import React from 'react'
 import { useState } from "react"
-import { Flex,Avatar,Text,Image, Box, Center} from "@chakra-ui/react"
+import { Flex,Avatar,Text,Image, Box, Center, Divider,Button} from "@chakra-ui/react"
 import {BsThreeDots} from "react-icons/bs"
 import Actions from "../components/Actions"
 
@@ -40,6 +40,15 @@ const PostPage = () => {
 			{0 + (liked ? 1 : 0)}likes
 			</Text>
 
+			</Flex>
+			<Divider my={4} />
+
+			<Flex justifyContent={"space-between"}>
+				<Flex gap={2} alignItems={"center"}>
+					<Text fontSize={"2xl"}>👋</Text>
+					<Text color={"gray.light"}>Get the app to like, reply and post.</Text>
+				</Flex>
+				<Button>Get</Button>
 			</Flex>
     </>
   )
