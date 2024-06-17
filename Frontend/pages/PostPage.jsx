@@ -51,7 +51,35 @@ const PostPage = () => {
 				</Flex>
 				<Button>Get</Button>
 			</Flex>
-			<Comments/>
+			
+			<Comments
+				comment="aye haye"
+				createdAt="2d"
+				likes={269}
+				username="pal"
+				userAvatar='https://bit.ly/dan-abramov'
+			/>
+			<Comments
+				comment="oye hoye"
+				createdAt="2d"
+				likes={369}
+				username="pall"
+				userAvatar="https://bit.ly/kent-c-dodds"
+			/>
+			<Comments
+				comment="patubati"
+				createdAt="1d"
+				likes={469}
+				username="pallab"
+				userAvatar="https://bit.ly/ryan-florence"
+			/>
+			<Comments
+				comment="patubati"
+				createdAt="1d"
+				likes={569}
+				username="pb7"
+				userAvatar="https://bit.ly/sage-adebayo"
+			/>
 			
     </>
   )
