@@ -1,8 +1,9 @@
 //import React from 'react'
 import { useState } from "react"
-import { Flex,Avatar,Text,Image, Box, Center, Divider,Button} from "@chakra-ui/react"
+import { Flex,Avatar,Text,Image, Box,  Divider,Button} from "@chakra-ui/react"
 import {BsThreeDots} from "react-icons/bs"
 import Actions from "../components/Actions"
+import Comments from "../components/Comments"
 
 const PostPage = () => {
 	const[liked,setLiked]=useState(false);
@@ -50,6 +51,8 @@ const PostPage = () => {
 				</Flex>
 				<Button>Get</Button>
 			</Flex>
+			<Comments/>
+			
     </>
   )
 }

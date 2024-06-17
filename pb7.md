@@ -10,6 +10,7 @@ dark mode,light mode banalam
 ![alt text](image-2.png) whole post component banalam
 same post e dynamic data i.e. different likes comments r data diye 4-5 ta post korlam
 
+![alt text](image-3.png) --> single post pg banachi
 
 
 */
