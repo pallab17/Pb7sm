@@ -38,6 +38,12 @@ tarpor route guno
 
 route guno lekhar jonno we need controller to make it look clean
 
+signup r jonno controller lekhar por
+
+amra postman e giye signup api test kore elam
+
+tarpor amra token aar cookie banalam
+
 
 
 
