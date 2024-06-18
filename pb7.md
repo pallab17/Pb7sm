@@ -54,6 +54,10 @@ amra postman e giye logout api test kore elam
 
 amra jokhun follow/unfollow route lekhar time e we remembered that we have to create a protectRoute r middleware because ekta manus ke follow korte gele amake age login hote hobe
 
+follow/unfollow r jonno controller lekhar por
+
+amra postman e giye follow/unfollow api test kore elam
+
 
 
 */
