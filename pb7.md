@@ -58,6 +58,10 @@ follow/unfollow r jonno controller lekhar por
 
 amra postman e giye follow/unfollow api test kore elam
 
+same for update route 
 
+same for getUserProfile route 
+
+userRoutes r jonno total 6 ta route banalam --> ![alt text](image-6.png)
 
 */
