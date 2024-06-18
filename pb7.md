@@ -44,8 +44,15 @@ amra postman e giye signup api test kore elam
 
 tarpor amra token aar cookie banalam
 
+login r jonno controller lekhar por
 
+amra postman e giye login api test kore elam
 
+logout r jonno controller lekhar por
+
+amra postman e giye logout api test kore elam
+
+amra jokhun follow/
 
 
 */
