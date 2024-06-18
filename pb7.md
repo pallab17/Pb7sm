@@ -64,4 +64,6 @@ same for getUserProfile route
 
 userRoutes r jonno total 6 ta route banalam --> ![alt text](image-6.png)
 
+
+![alt text](image-7.png)-->postRoutes r jonno total 6 ta route banalam
 */
