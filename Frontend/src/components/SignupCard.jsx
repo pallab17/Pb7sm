@@ -13,7 +13,6 @@ import {
   Text,
   useColorModeValue,
   Link,
-  useToast,
 } from "@chakra-ui/react";
 import { useState } from "react";
 import { ViewIcon, ViewOffIcon } from "@chakra-ui/icons";
@@ -32,7 +31,7 @@ export default function SignupCard() {
     password: "",
   });
 
-  const showToast = useToast();
+  const showToast = useShowToast();
   const setUser = useSetRecoilState(userAtom);
 
   const handleSignup = async () => {

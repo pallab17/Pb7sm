@@ -6,3 +6,5 @@ const userAtom = atom({
 });
 
 export default userAtom;
+
+// user r current state ta tule rakhe mal ta
