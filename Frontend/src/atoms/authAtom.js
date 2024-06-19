@@ -6,3 +6,6 @@ const authScreenAtom = atom({
 });
 
 export default authScreenAtom;
+
+// to use recoil we need to use atom
+// atom is basically a state
