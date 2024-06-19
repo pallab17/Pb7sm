@@ -77,5 +77,9 @@ prothome login aar signup page ta banachi
 to toggle between the two we are using import { useSetRecoilState } from "recoil";
 
 
+atom + recoilroot
+authatom(only for login/signup pg) + useratom(user r state r jonno using local storage)
 
+
+authpage.jsx for authentication 
 */
