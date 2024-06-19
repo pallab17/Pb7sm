@@ -66,4 +66,16 @@ userRoutes r jonno total 6 ta route banalam --> ![alt text](image-6.png)
 
 
 ![alt text](image-7.png)-->postRoutes r jonno total 6 ta route banalam
+
+
+
+
+connecting frontend + backend
+
+prothome login aar signup page ta banachi 
+
+to toggle between the two we are using import { useSetRecoilState } from "recoil";
+
+
+
 */
