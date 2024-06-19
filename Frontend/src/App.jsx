@@ -5,6 +5,7 @@ import UserPage from "../src/pages/UserPage"
 import PostPage from "../src/pages/PostPage"
 import Header from "../src/components/Header"
 import Homepage from "./pages/Homepage"
+import AuthPage from "./pages/AuthPage"
 
 
 function App() {
