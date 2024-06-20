@@ -1,8 +1,7 @@
+import Post from "../models/postModel.js";
 import User from "../models/userModel.js";
-import Post from "../models/postModel.js"
 import { v2 as cloudinary } from "cloudinary";
 
- 
 const createPost = async (req, res) => {
 	try {
 		const { postedBy, text } = req.body;
@@ -34,12 +33,13 @@ const createPost = async (req, res) => {
 		const newPost = new Post({ postedBy, text, img });
 		await newPost.save();
 
-		res.status(201).json({message:"Post Created successfully",newPost});
+		res.status(201).json(newPost);
 	} catch (err) {
 		res.status(500).json({ error: err.message });
 		console.log(err);
 	}
 };
+
 const getPost = async (req, res) => {
 	try {
 		const post = await Post.findById(req.params.id);
@@ -53,6 +53,7 @@ const getPost = async (req, res) => {
 		res.status(500).json({ error: err.message });
 	}
 };
+
 const deletePost = async (req, res) => {
 	try {
 		const post = await Post.findById(req.params.id);
@@ -76,6 +77,7 @@ const deletePost = async (req, res) => {
 		res.status(500).json({ error: err.message });
 	}
 };
+
 const likeUnlikePost = async (req, res) => {
 	try {
 		const { id: postId } = req.params;
@@ -103,6 +105,7 @@ const likeUnlikePost = async (req, res) => {
 		res.status(500).json({ error: err.message });
 	}
 };
+
 const replyToPost = async (req, res) => {
 	try {
 		const { text } = req.body;
@@ -125,11 +128,12 @@ const replyToPost = async (req, res) => {
 		post.replies.push(reply);
 		await post.save();
 
-		res.status(200).json({ message: "replied successfully", reply});
+		res.status(200).json(reply);
 	} catch (err) {
 		res.status(500).json({ error: err.message });
 	}
 };
+
 const getFeedPosts = async (req, res) => {
 	try {
 		const userId = req.user._id;
@@ -147,6 +151,7 @@ const getFeedPosts = async (req, res) => {
 		res.status(500).json({ error: err.message });
 	}
 };
+
 const getUserPosts = async (req, res) => {
 	const { username } = req.params;
 	try {
@@ -163,4 +168,4 @@ const getUserPosts = async (req, res) => {
 	}
 };
 
-export {createPost,getPost,deletePost,likeUnlikePost,replyToPost,getFeedPosts,getUserPosts}
+export { createPost, getPost, deletePost, likeUnlikePost, replyToPost, getFeedPosts, getUserPosts };
