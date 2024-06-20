@@ -97,7 +97,11 @@ create post r jonno amra createpost.jsx toiri korlam tar sathe cloudinary te img
 
 ![alt text](image-9.png)
 
+feed post r jonno amra homepage.jsx toiri korlam + post jsx o toiri korlam
+and and ekta particular post e click korle amra jate jei post kora manus r profile e jete pari seitar byabosta korlam
 
 
+tarpor like/unlike + comment on the posts presented on the home pg r jonno amra 
+actions.jsx e changes korlam
 
 */
