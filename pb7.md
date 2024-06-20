@@ -104,4 +104,10 @@ and and ekta particular post e click korle amra jate jei post kora manus r profi
 tarpor like/unlike + comment on the posts presented on the home pg r jonno amra 
 actions.jsx e changes korlam
 
+
+
+to get a individual person's posts and show it to their screen we made another api router.get("/user/:username", getUserPosts); and controller e fn likhlam
+tarpor userpage.jsx e amra getpost fn ta banalam
+
+
 */
