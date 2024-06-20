@@ -95,6 +95,8 @@ follow/unfollow r fn r jonno we updated our userpage.jsx and userheader.jsx file
 
 create post r jonno amra createpost.jsx toiri korlam tar sathe cloudinary te img ta dhokanor jonno amra ektu change o korlam be r route e postroute e 
 
+![alt text](image-9.png)
+
 
 
 
