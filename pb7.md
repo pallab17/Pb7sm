@@ -82,4 +82,13 @@ authatom(only for login/signup pg) + useratom(user r state r jonno using local s
 
 
 authpage.jsx for authentication 
+
+updateprofile pg  ![alt text](image-8.png)  eitate dp change korar jonno we are using usePreviewImg.jsx tarpor ei updated dp take cloudinary te store korchi
+prothome backend r server e giye cloudinary ke input korlam
+
+tarpor userroutes r mooodhe update fn e giye cloudinary te recent dp ta store korar fn likhlam
+oha backend r env file e cloudinary r details store kore rekhechi
+
+
+
 */
