@@ -114,5 +114,8 @@ kono ekta post jeita home pg e ache sei take click korle amra sei post tar pg  e
 useGetuserprofile cusstom hook + comment component + PostPage.jsx e changes 
 
 
+tarpot comment aar delete post optimise korlam
+
+
 
 */
