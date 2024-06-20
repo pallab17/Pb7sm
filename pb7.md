@@ -110,4 +110,9 @@ to get a individual person's posts and show it to their screen we made another a
 tarpor userpage.jsx e amra getpost fn ta banalam
 
 
+kono ekta post jeita home pg e ache sei take click korle amra sei post tar pg  e jete parchina to do this we are making
+useGetuserprofile cusstom hook + comment component + PostPage.jsx e changes 
+
+
+
 */
